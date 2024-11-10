@@ -105,7 +105,7 @@ const LearnMorePage = () => {
   
   {/* Use Link for navigation */}
   <Link
-    to="/GetContact" // Link to the Contact page route
+    to="/Contact" // Link to the Contact page route
     className="bg-blue-500 text-white py-2 px-6 rounded-lg font-semibold hover:bg-blue-700"
   >
     Get Started
