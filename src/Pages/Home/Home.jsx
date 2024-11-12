@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
         <div className="slider-content">
           <h1>Welcome to Marketing Group</h1>
           <p>Experience the best services with us</p>
-        <a href="#contact"> <button className="slider-btn">Get Info</button></a> 
+          <Link to='/LearnMore'> <button className="learn-more-btn">Learn More</button></Link>
         </div>
       </div>
 
@@ -33,7 +34,7 @@ function Home() {
             Discover key strategies that make digital marketing successful, from targeting the right audience to
             leveraging data analytics, personalized content, and SEO to boost online visibility and drive results.
           </p>
-         <a href="#services"> <button className="learn-more-btn">Learn More</button></a>
+         <Link to='/LearnMore'> <button className="learn-more-btn">Learn More</button></Link>
         </div>
       </div>
 
@@ -45,7 +46,7 @@ function Home() {
             The art of creating engaging content involves telling tales that captivate readers, enlighten them, and
             motivate them to take action—converting site visitors into devoted supporters and followers.
           </p>
-          <a href="#services"> <button className="learn-more-btn">Learn More</button></a>
+          <Link to='/LearnMore'> <button className="learn-more-btn">Learn More</button></Link>
         </div>
         <div className="image-card">
           <img src="your-image-url2.jpg" alt="Content Creation Illustration" />
@@ -88,7 +89,7 @@ function Home() {
         <p>
           At Unstop Techno Solutions, we are committed to providing innovative and result-oriented IT solutions to businesses of all sizes. Our expertise spans a wide spectrum, including digital marketing, SEO optimization, and web design.At Unstop Techno Solutions, we are committed to providing innovative and result-oriented IT solutions to businesses of all sizes. Our expertise spans web development, digital marketing, SEO optimization, and beyond. With a team of experienced professionals, we deliver customized services that meet our clients' unique needs and drive their success. We believe in the power of technology to transform businesses, and we aim to be the trusted partner that helps you achieve your goals. From startups to established enterprises, our solutions are designed to enhance growth, visibility, and efficiency. Let’s build your digital future together
         </p>
-        <a href="#services"><button className="learn-more-btn">Learn More</button></a>
+        <Link to='/LearnMore'> <button className="learn-more-btn">Learn More</button></Link>
       </section>
     </div>
   );
