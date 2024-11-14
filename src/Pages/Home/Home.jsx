@@ -6,14 +6,13 @@ function Home() {
   return (
     <div className="homepage">
       
-      {/* Slider */}
       <div className="slider">
-        <div className="slider-content">
-          <h1>Welcome to Marketing Group</h1>
-          <p>Experience the best services with us</p>
-        <a href="#contact"> <button className="slider-btn">Get Info</button></a> 
-        </div>
-      </div>
+  <div className="slider-content">
+    <h1>Welcome to Marketing Group</h1>
+    <h3>Experience the best services with us</h3>
+    <a href="#contact"> <button className="slider-btn">Get Info</button></a>
+  </div>
+</div>
 
 
 
@@ -25,7 +24,7 @@ function Home() {
       {/* Section 1 */}
       <div className="content-row">
         <div className="image-card">
-          <img src="your-image-url1.jpg" alt="Marketing Illustration" />
+          <img src="marketing-img2.jpg" alt="Marketing Illustration" />
         </div>
         <div className="text-content">
           <h2>What Makes Digital Marketing Effective?</h2>
@@ -48,7 +47,7 @@ function Home() {
           <a href="#services"> <button className="learn-more-btn">Learn More</button></a>
         </div>
         <div className="image-card">
-          <img src="marketing.jpg" alt="Content Creation Illustration" />
+          <img src="marketing2.jpg" alt="Content Creation Illustration" />
         </div>
       </div>
     </div>
@@ -65,14 +64,17 @@ function Home() {
         <h2>Our Services</h2>
         <div className="services-cards">
           <div className="card">
+          <img src="performance.png" alt="Market Research" className="home_card_logo" />
             <h3>SEO Optimization</h3>
             <p>Improve your search engine rankings with expert SEO optimization solutions.Boost your brand's reach with effective digital marketing strategies</p>
           </div>
           <div className="card">
+          <img src="performance.png" alt="Market Research" className="home_card_logo" />
             <h3>Web Designing</h3>
             <p>Create a user-friendly web design that elevates your online presence.</p>
           </div>
           <div className="card">
+          <img src="performance.png" alt="Market Research" className="home_card_logo" />
             <h3>Digital Marketing</h3>
             <p>Boost your brand's reach with effective digital marketing strategies.</p>
           </div>

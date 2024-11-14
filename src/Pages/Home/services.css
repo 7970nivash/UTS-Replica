@@ -158,6 +158,13 @@
   width: 100%;
   padding: 10px;
 }
+.card_image {
+  width: 80px; /* Set your preferred size */
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  /* Optional: make image circular */
+}
 
 /* Individual Card Styling */
 .card {

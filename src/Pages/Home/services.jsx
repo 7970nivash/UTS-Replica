@@ -17,36 +17,42 @@ function Services() {
         
         <div className="cards_container">
           <div className="card">
+            <img src="digital-marketing.png" alt="Market Research" className="card_image" />
             <h3 className="card_title">Market Research</h3>
             <p className="card_text">
               In-depth analysis of market trends to help you stay ahead of the competition.
             </p>
           </div>
           <div className="card">
+            <img src="channel.png" alt="Market Research" className="card_image" />  
             <h3 className="card_title">Brand Strategy</h3>
             <p className="card_text">
               Crafting a unique brand identity that resonates with your target audience.
             </p>
           </div>
           <div className="card">
+            <img src="3.png" alt="Market Research" className="card_image" />
             <h3 className="card_title">Digital Advertising</h3>
             <p className="card_text">
               Utilizing digital channels to increase brand visibility and engagement.
             </p>
           </div>
           <div className="card">
+          <img src="1.png" alt="Market Research" className="card_image" />
             <h3 className="card_title">Content Creation</h3>
             <p className="card_text">
               Developing high-quality content that reflects your brand's voice and values.
             </p>
           </div>
           <div className="card">
+          <img src="social-media.png" alt="Market Research" className="card_image" />
             <h3 className="card_title">Social Media Management</h3>
             <p className="card_text">
               Building and managing your brand’s presence across major social platforms.
             </p>
           </div>
           <div className="card">
+          <img src="writer.png" alt="Market Research" className="card_image" />
             <h3 className="card_title">Performance Analytics</h3>
             <p className="card_text">
               Analyzing campaign performance to maximize results and optimize strategies.
