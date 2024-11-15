@@ -20,6 +20,9 @@ body, .homepage {
   border-radius: 50%;
   object-fit: cover;
 }
+.slider-content{
+  width: 220vh;
+}
   
   /* Navbar */
   .navbar {
@@ -27,6 +30,7 @@ body, .homepage {
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    width: 100%;
     background-color: #333;
     color: white;
   }
@@ -94,6 +98,7 @@ body, .homepage {
   }
 }
 
+
 /* Additional styles for screens below 500px */
 @media (max-width: 500px) {
   .root{
@@ -103,6 +108,7 @@ body, .homepage {
   .navbar {
       padding: 5px 10px;      /* Reduce padding for smaller screens */
       content: fit;
+      width: 100%vh;
   }
 
 
@@ -409,6 +415,7 @@ p {
   .about-us {
       padding: 20px;         /* Reduce padding on smaller screens */
       min-height: 300px;     /* Adjust minimum height for smaller screens */
+      width: 100%;
   }
 
   .about-us h2 {
@@ -435,6 +442,7 @@ p {
     background-color: #333;
     color: white;
     padding: 2rem;
+    width: 100%;
   }
   
   .footer-content {

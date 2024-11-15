@@ -27,11 +27,11 @@ const App = () => {
         <li><Link to="/about" className="about">About</Link></li>
         <li><Link to="/career" className="career">Career</Link></li>
         <li><Link to="/blogs" className="blogs">Blogs</Link></li>    
-      </ul>
+      
       <Link to="/Contact"><button className="get-in-touch">
         Get in Touch
       </button></Link>
-      
+      </ul>
     </nav>
       {/* Setting up Routes */}
       <Routes>

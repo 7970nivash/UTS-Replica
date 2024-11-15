@@ -78,6 +78,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
+    width: 100%;
     background: linear-gradient(135deg, #f0f8ff, #e6f7ff); /* Smooth gradient background */
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -140,7 +141,7 @@
   width: 100%;
   max-width: 1000px;
   margin-top: 30px;
-  padding-left: 30vh;
+  padding-left: 30px;
 }
 
 .cards_section_title {
@@ -182,6 +183,7 @@
   
 }
 
+
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(130, 149, 208, 0.2);
@@ -201,10 +203,82 @@
   line-height: 1.5;
 }
 
+/* Adjustments for medium screens */
+@media (max-width: 768px) {
+  .cards_section {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  .cards_container {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+  }
+
+  .card {
+    height: 180px; /* Reduced height */
+    padding: 15px;
+  }
+
+  .card_title {
+    font-size: 16px; /* Slightly smaller font */
+  }
+
+  .card_text {
+    font-size: 12px;
+  }
+}
+
+/* Adjustments for small screens */
+@media (max-width: 480px) {
+  .cards_section {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+
+  .cards_container {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 15px;
+  }
+
+  .card {
+    height: 160px; /* Smaller height */
+    padding: 10px;
+  }
+
+  .card_title {
+    font-size: 15px;
+  }
+
+  .card_text {
+    font-size: 12px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Styling */
 @media (max-width: 768px) {
   .services_by_uts {
     padding: 20px;
+    width: 100%;
   }
   .services_container{
     max-width: auto;
@@ -226,7 +300,7 @@
 @media (max-width: 480px) {
   .services_by_uts {
     padding: 15px;
-    max-width: 90%;
+    max-width: 100%;
   }
   .services_container{
     max-width: auto;
@@ -259,6 +333,7 @@
 @media (max-width: 1024px) {
   .cards_container {
     gap: 25px;
+    width: 100%;
   }
 
   .card {
@@ -282,6 +357,7 @@
   .cards_container {
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     gap: 20px;
+    width: 100%;
   }
 
   .card {
@@ -305,6 +381,7 @@
   .cards_container {
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 15px;
+    width: 100%;
   }
 
   .card {
@@ -329,8 +406,9 @@
 
 /* Full-Width Container */
 .middile_section {
-  width: 100%; /* Full width */
+  width: 100%;
   display: flex;
+
   justify-content: center; /* Aligns the container content to the left */
   padding: 40px 20px;
   background-color: #f9f9f9; /* Optional: Set a background color */
